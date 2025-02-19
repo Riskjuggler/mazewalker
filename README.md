@@ -3,18 +3,11 @@ This project is a Proof of Concept to demonstrate my learning journey around age
 
 **Objective** 
 
-During my senior year of High School I was spending most of my free time in the computer lab.   When my Pyschology class assignment came up
-I decided to try to write a program that could act like a mouse learning to get through a maze.   This was 1986 so back then AI was a horror 
-story or sci fi dream (see "Tron" or "Wargames").   I struggled for quite a while and got stuck because I couldn't get the sensing to work right
-so the mouse kept running through the walls but it did decide and remember just fine.   Since I had run out of time, Chris Nack and I worked out
-that we could connect two of the TRS 80 model III's using an cable.  We edited an early program for chatting (think unix's talk) so each user's 
-response would come up after the other resulting in essentially the same experience as we get from any GPT with a chat interface today.   He sat 
-on the other side while I gave my talk on my side to explain AI to my Pysch class while chatting with him (the AI).   The class was amazed until
-I let them in on the truth.
+During my senior year of High School I was spending most of my free time in the computer lab.   When my big Pyschology class paper/speech assignment came up I decided to try to write a program that could act like a mouse learning to get through a maze.   This was 1986 so back then AI was a horror story or sci fi dream (see "Tron" or "Wargames") that very few people really tried to work with.   My goal was actually to define the learning + memory so it would go back through the maze the 2nd time much faster.  
 
-Anyway, this is v2 of the mouse program I wrote in high school but using python and OpenAI to create the maze and decide which direction to go.   
-FWIW, yes, I know I could have automated the decisions so this isn't exactly what most people mean when they say agentic AI but this is my first 
-attempt at integrating LLMs into code so it was the next step on my AI Engineering journey and I learned a lot along the way.
+I struggled for quite a while and got stuck because I couldn't get the sensing to work right so the mouse kept running through the walls but it did decide and remember just fine.   Since I had run out of time, Chris Nack and I worked out that we could connect two of the TRS 80 model III's using a cable.  We edited an early program for chatting (predecessor to unix's talk app) so each user's response would come up after the other resulting in essentially the same user experience as we get from any GPT with a chat interface today.   He sat on the other side while I gave my talk on my side to explain AI to the Pysch class while chatting with him (the AI).   The teacher and class were amazed until I let them in on the truth.  I wonder what they think about AI now...
+
+Anyway, this is v2 of the mouse program I wrote in high school.  This version is using python and OpenAI to create the maze and decide which direction to go but without memory.  FWIW, yes, I know I could have automated the decisions so this isn't exactly what most people mean when they say agentic AI but this is my first attempt at integrating LLMs into code so it was the next step on my AI Engineering journey and I learned a lot along the way.
 
 **Usage**  
 
@@ -44,5 +37,6 @@ attempt at integrating LLMs into code so it was the next step on my AI Engineeri
 
 **Future improvement / learning ideas**
 
+- Install memory so we can remember the maze and the mouse can get to the end perfectly the second time
 - Consider other LLMs to improve effectiveness and reduce cost
-- Define a proper evaluation plan and execute to assure my LLM choice is least cost and optimally fit for purpose to work through those details on paper 
+- Define a proper LLM evaluation plan and execute to assure my LLM choice is least cost and optimally fit for purpose and work through those details on paper same as I might be expected to in a real AI Engineering role 
