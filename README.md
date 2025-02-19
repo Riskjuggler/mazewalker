@@ -39,8 +39,9 @@ attempt at integrating LLMs into code so it was the next step on my AI Engineeri
 - Be sure to ask ChatGPT for alternative but still effective and efficient prompts to help reduce your prompt cost.  I have to imagine after all my trials that part of my challenge was LLM capability but the highest obstacle was just pure word choice.   Precision and efficiency are key to lean and effective prompting.  Everyone says so, but for a Philosophy major trained in college on old english and english translations of German and French philosophy tomes it's super easy to get over wordy.
 - Thank you Arash for the pro-tip about the Heuristics weights in the prompt shortcut!!   I wouldn't have achieved a working maze creator without it!! Plain english wasn't enough for ChatGPT to figure it out with high accuracy.
 - I'm glad I was also reading chapter 3: Evaluation Methodology and chapter 4: Evaluate AI Systems from Chip Huyen's AI Engineering: Building Applications with Foundational Models - (O'Reilly) Copyright 2025 Developer Experience Advisory LLC, 978-1-098-16630-4   This helped me overcome the challenge that almost stopped me again (the maze wouldn't draw right).
+- I still have a lot to learn to get the most out of python without help.  That free Github Copilot was super helpful when I got stuck a few times but I can see how some who might not be able to clearly describe their product feature requirements might not get much out of it!
 
 **Future improvement / learning ideas**
 
 - Consider other LLMs to improve effectiveness and reduce cost
-- Define a proper evaluation plan and execute to assure fit for purpose so I work through those details on paper 
+- Define a proper evaluation plan and execute to assure my LLM choice is least cost and optimally fit for purpose to work through those details on paper 
