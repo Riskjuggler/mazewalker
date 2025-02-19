@@ -17,20 +17,23 @@ FWIW, yes, I know I could have automated the decisions so this isn't exactly wha
 attempt at integrating LLMs into code so it was the next step on my AI Engineering journey and I learned a lot along the way.
 
 **Usage**  
+
     *`mazewalker.py <debug>`*
     debug flag will show the decision prompts and response details
 
 **Install Instructions**
+
     1. Install python if not already
     2. Rename example.env to .env and put in your own OpenAI API key
     3. 
 
 **Known issues**
-    - The prompt that creates the maze took several hours of trial and error to get to this point.   It still doesn't always produce a maze that 
-    can be completed.  The program will stop once the mouse gets trapped so no worries about endless loops or anything.
-    - For some reason I didn't take the time yet to sort out, occasionally it will generate a maze that is of odd lengths so the player position step will error out.   Just re-start.
+
+- The prompt that creates the maze took several hours of trial and error to get to this point.   It still doesn't always produce a maze that can be completed.  The program will stop once the mouse gets trapped so no worries about endless loops or anything.
+- For some reason I didn't take the time yet to sort out, occasionally it will generate a maze that is of odd lengths so the player position step will error out.   Just re-start.
 
 **Learnings** 
+
 - It's possible to over design as you're working through where and how you can integrate AI into your workflows.   Check out designdocs\Mouse_in_maze_SOP_Architecture.pdf for my initial analysis of the process and key decision points as I quested for where to get benefit from an AI planner.
 - Exerimenting with LLMs can be expensive!  I used my Prompt Engineering helper GPT (https://chatgpt.com/g/g-675b2943ed54819181c72951991af3e8-there-is-a-prompt-for-that) to work through most of the deeper refinements but the multiple tests I ran to get the code where I wanted still added up quick to $2.01 USD.   
 - Be sure to ask ChatGPT for alternative but still effective and efficient prompts to help reduce your prompt cost.  I have to imagine after all my trials that part of my challenge was LLM capability but the highest obstacle was just pure word choice.   Precision and efficiency are key to lean and effective prompting.  Everyone says so, but for a Philosophy major trained in college on old english and english translations of German and French philosophy tomes it's super easy to get over wordy.
@@ -38,5 +41,6 @@ attempt at integrating LLMs into code so it was the next step on my AI Engineeri
 - I'm glad I was also reading chapter 3: Evaluation Methodology and chapter 4: Evaluate AI Systems from Chip Huyen's AI Engineering: Building Applications with Foundational Models - (O'Reilly) Copyright 2025 Developer Experience Advisory LLC, 978-1-098-16630-4   This helped me overcome the challenge that almost stopped me again (the maze wouldn't draw right).
 
 **Future improvement / learning ideas**
+
 - Consider other LLMs to improve effectiveness and reduce cost
 - Define a proper evaluation plan and execute to assure fit for purpose so I work through those details on paper 
