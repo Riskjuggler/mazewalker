@@ -24,8 +24,8 @@ attempt at integrating LLMs into code so it was the next step on my AI Engineeri
 **Install Instructions**
 
     1. Install python if not already
-    2. Rename example.env to .env and put in your own OpenAI API key
-    3. 
+    2. Rename example.env to .env and edit to add your own OpenAI API key
+    3. If you don't have them installed yet, use pip or your preferred module installer to install dotenv, OpenAI, etc.
 
 **Known issues**
 
