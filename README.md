@@ -29,6 +29,7 @@ attempt at integrating LLMs into code so it was the next step on my AI Engineeri
 
 **Known issues**
 
+- Sometimes it will find the end before it's actually the end and sometimes it won't recognize it as at the end - LLM hallucinations
 - The prompt that creates the maze took several hours of trial and error to get to this point.   It still doesn't always produce a maze that can be completed.  The program will stop once the mouse gets trapped so no worries about endless loops or anything.
 - For some reason I didn't take the time yet to sort out, occasionally it will generate a maze that is of odd lengths so the player position step will error out.   Just re-start.
 
