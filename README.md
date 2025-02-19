@@ -1,5 +1,5 @@
 # aimazewalker
-This project is a Proof of Concept project to demonstrate my learning journey around agentic AI.
+This project is a Proof of Concept to demonstrate my learning journey around agentic AI.
 
 **Objective** 
 
